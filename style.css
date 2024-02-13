@@ -1,0 +1,21 @@
+*,
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div > h1{
+    color: gray;
+    cursor: pointer;
+}
+
+h1:hover{
+    color: black;
+    transition: all ease-in-out 500ms;
+}
